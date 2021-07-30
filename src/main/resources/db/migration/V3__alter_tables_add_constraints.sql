@@ -1,0 +1,2 @@
+alter table `gateway` add constraint `UK_ki3yedqxnooh4nmcdhcv8gut6` unique (`serial_number`);
+alter table `peripheral` add constraint `FK5jmmc4fnfkoqnmn8uxjwnemqr` foreign key (`gateway_id`) references gateway (`gateway_id`)
